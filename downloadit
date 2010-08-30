@@ -1,0 +1,4 @@
+for file in `cat vimeo-list`
+do
+	sh vimeo_downloader.sh $file
+done
