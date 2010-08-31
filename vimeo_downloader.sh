@@ -25,7 +25,7 @@ if [ $# -ne 1 ]; then
 fi
 VIMEO_ID=`echo $1 | sed -e 's/^http:\/\/vimeo\.com\///'`
 
-GET_CMD="wgetgood"
+GET_CMD="./wgetgood"
 GET_STDOUTARGS="-q -O -"
 
 VIDEO_XML=`${GET_CMD} ${GET_STDOUTARGS} http://www.vimeo.com/moogaloop/load/clip:${VIMEO_ID}`
