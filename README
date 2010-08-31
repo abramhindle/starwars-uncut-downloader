@@ -3,3 +3,5 @@ sh downloadit
 sh vimeo-rename-list
 sh concatter.sh > Makefile
 make swuncut.mpg
+
+This was essentially a failure. It was easier to just download and rename the FLVs and play them in mplayer or vlc or totem.

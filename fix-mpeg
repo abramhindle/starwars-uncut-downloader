@@ -1,0 +1,2 @@
+ffmpeg -f mpeg -i swuncut.mpg -vcodec copy -acodec copy swuncut-fixed.mpg
+
