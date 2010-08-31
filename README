@@ -1,0 +1,5 @@
+Ugly way of downloading star wars uncut from vimeo
+sh downloadit
+sh vimeo-rename-list
+sh concatter.sh > Makefile
+make swuncut.mpg
